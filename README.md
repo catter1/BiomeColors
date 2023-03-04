@@ -1,6 +1,6 @@
 # Biome Color Generator
 
-This Python script will create a `biome_colors.json` for custom biome worldgen datapacks. This is made specifically for **jacobsjo**'s [MC Datapack Map](https://github.com/jacobsjo/mc-datapack-map) web application. Click [here](https://map.jacobsjo.eu/) to use the web application yourself.
+This Python script works as a **command line interface** to create a `biome_colors.json` for custom biome worldgen datapacks. This is made specifically for **jacobsjo**'s [MC Datapack Map](https://github.com/jacobsjo/mc-datapack-map) web application. Click [here](https://map.jacobsjo.eu/) to use the web application yourself.
 
 ## Formatting
 
@@ -36,7 +36,7 @@ It should also be noted that in the script, you will see downfall referenced as 
 pip install -r requirements.txt
 ```
 
-4. Run the script.
+4. Run the CLI.
 ```bash
 python3 biome_colors_generator.py <filepath> <namespace> [OPTIONS]
 ```
